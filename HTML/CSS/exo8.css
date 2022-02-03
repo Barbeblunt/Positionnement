@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+nav{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: sticky;
+    top: 15px;
+    left: 40px;
+}
+ul{
+    position: absolute;
+    right: 30%;
+    top: 15%;
+}
+li{
+    list-style-type: none;
+}
+main{
+    display: flex;
+    margin-top:10%;
+}
+article{
+    width: 80%;
+    margin-bottom: 10%;
+}
+footer{
+    padding: 1%;
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+}
+section{
+    width: 80%;
+    margin-left: 20%;
+}

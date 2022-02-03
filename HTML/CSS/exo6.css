@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.carre{
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border: 2px solid black;
+}
+.white{
+    position: relative;
+    background-color: white;
+    height: 640px;
+    width: 640px;
+    border: 2px solid black;
+    margin: auto;
+}
+.bleuclair{
+    position: absolute;
+    background-color: rgb(140, 140, 163);
+    height: 600px;
+    width: 600px;
+    top:15px;
+    right: 15px;
+    border: 2px solid black;
+
+}
+#vert{
+    position: absolute;
+    background-color: green;
+    left: 40px;
+    top: 40px;
+}
+#orange{
+    background-color: orange;
+    right: 80px;
+    bottom: 80px;
+    z-index: 11;
+
+}
+#jaune{
+    background-color: yellow;
+    right: 40px;
+    bottom: 40px;
+    z-index: 10;
+
+}
+#bleu{
+    background-color: blue;
+    left: 80px;
+    top: 80px;
+    opacity: 0.6;
+    z-index: 12;
+}

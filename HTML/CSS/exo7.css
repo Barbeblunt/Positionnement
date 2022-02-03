@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.carre{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+.rectangle{
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+}
+.white{
+    position: relative;
+    background-color: white;
+    height: 500px;
+    width: 540px;
+    border: 1px solid black;
+    margin: auto;
+}
+.white2{
+    position: absolute;
+    width: 500px;
+    top:15px;
+    right: 15px;
+}
+#vert{
+    float: left;
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+    clear: both;    
+}
+#jaune{
+    background-color: yellow;
+    float: right;
+}
+#grey{
+    background-color: grey;
+    float:right;
+}
+
+#bleu{
+    background-color: blue;
+    float: left;
+}
